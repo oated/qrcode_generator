@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+body{
+  text-align: center;
+  background-color: #000219;
+  color: aquamarine;
+}
+
+.App{
+  padding:2rem 1rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+input{
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #EEE;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+button, a{
+  appearance: none;
+  outline: none;
+  border: none;
+  background: aquamarine;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+p.how-to{
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 2rem auto;
+}
