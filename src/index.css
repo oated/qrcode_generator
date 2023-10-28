@@ -64,9 +64,15 @@ img{
     border: none;
     background: #EEE;
     width: 100%;
+    max-width: 599px;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+button{
+  font-size: 1rem;
+  width: 100%;
+  max-width: 150px;
 }
 }
