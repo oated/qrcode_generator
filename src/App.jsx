@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-        <img src="src/assets/logo.png" alt="logo qrcode generator" className="logo-qr" />
+        <img src="public/logo.png" alt="logo qrcode generator" className="logo-qr" />
         <h1>QR Code Generator</h1>
         <p className="how-to">พิมพ์ Link เช่น https://google.com ลงไปในช่องสีขาว และ คลิก สร้าง QR Code</p>
         <input type="text" placeholder="ใส่ลิ้งเช่น https://google.com" value={url} onChange={(evt) => setUrl(evt.target.value)}/>
